@@ -1,0 +1,53 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    height: 100vh;
+    padding-bottom: calc(100vh/4);
+}
+
+.explore-div {
+    z-index: 2;
+}
+
+.explore-text {
+    color: lightgray;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.premium-text {
+    color: #9F2B68;
+}
+
+.not-auth-text {
+    color: lightgray;
+    z-index: 2;
+    font-size: 1.2rem;
+}
+
+.login-an, .register-an {
+    color: #9F2B68;
+    text-decoration: none;
+}
+
+.login-an:hover, .register-an:hover {
+    cursor: pointer;
+    color: #CB5794;
+}
+
+.auth-welcome {
+    color: lightgray;
+    z-index: 2;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.auth-highlight-username {
+    color: #9F2B68;
+    z-index: 2;
+    font-size: 2rem;
+    font-weight: bold;
+}
+

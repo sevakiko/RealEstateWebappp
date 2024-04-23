@@ -1,0 +1,20 @@
+.lighter-btn {
+    background-color: #d9d9d921; /* Lighter color */
+    border-color: #d9d9d900; /* Border color */
+    color: #ffffff; /* Text color */
+}
+
+.lighter-btn:hover {
+    background-color: #bfbfbf; /* Darker color on hover */
+    border-color: #bfbfbf; /* Border color on hover */
+    color: #333; /* Text color */
+}
+
+.listing-item{
+    margin-bottom: 1rem;
+    color: lightgray;
+}
+
+h2{
+    margin-bottom: 1.5rem;
+}

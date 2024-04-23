@@ -1,0 +1,56 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.navbar-auth {
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1));
+}
+
+.company-name {
+    color: lightgray;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none; 
+}
+
+.company-name:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.profile {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.profile-pic {
+    height: 3em;
+    border-radius: 25%;
+}
+
+.profile-pic:hover {
+    box-shadow: 0 0 0 0.2em #c33580; 
+    cursor: pointer;
+}
+
+.username {
+    color: lightgray;
+    font-size: 1.2rem;
+    text-decoration: none; 
+}
+
+.username:hover{
+    color: white;
+    cursor: pointer;
+    text-shadow: 0px 0px 1px white;
+}

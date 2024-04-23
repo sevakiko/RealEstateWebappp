@@ -1,0 +1,85 @@
+.view-listing-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    transform: translateY(2.1cm);
+    word-wrap: break-word;
+    position: relative;
+}
+
+.view-listing-wrapper .listing-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.view-listing-wrapper .listing-item {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 3%;
+    box-shadow: 0 0 3px white;
+}
+
+.view-listing-wrapper .listing-item h3 {
+    margin: 0;
+    font-size: 18px;
+    color: white;
+}
+
+.view-listing-wrapper .listing-item p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+.view-listing-wrapper .listing-item .image-container {
+    margin-bottom: 10px;
+}
+
+.view-listing-wrapper .listing-item .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.buttons-wrapper {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    z-index: 1001;
+}
+
+.prev-button,
+.next-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.prev-button:hover,
+.next-button:hover {
+    background-color: #444;
+}
+
+.page-wrapper {
+    z-index: 1;
+    height: 100vh;
+    overflow-y: auto;
+    padding-bottom: 100px;
+
+    scrollbar-width: none; /* Για να κρύβεις το scrollbar σε Firefox */
+}
+
+/* Το ίδιο για scrollbar για Chrome και Opera */
+.page-wrapper::-webkit-scrollbar {
+    display: none;
+}

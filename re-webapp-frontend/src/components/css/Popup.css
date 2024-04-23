@@ -1,0 +1,108 @@
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3rem;
+    padding-top: 1.5rem;
+    z-index: 99;
+    background-color: rgb(0, 0, 0);
+    color: lightgray;
+    border-radius: 7%;
+    box-shadow: 0 0 3px white;
+    max-width: 20%;
+    word-wrap: break-word;
+}
+
+.listing-description{
+    text-wrap: balance;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.register-popup {
+    border-radius: 3%;
+}
+
+.login-text,
+.register-text {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.mb-3 {
+    text-align: left;
+}
+
+.mb-3:last-of-type {
+    padding-bottom: 0.4rem;
+}
+
+.form-control:focus {
+
+    outline: none !important;
+    border: 1px solid #9F2B68;
+    box-shadow: 0 0 0 #9F2B68
+}
+
+.close-btn {
+    margin-left: 1rem;
+}
+
+.close-btn:focus {
+    box-shadow: none;
+}
+
+.login-btn,
+.register-btn {
+    background-color: #9F2B68;
+    border: none;
+}
+
+.login-btn:hover,
+.register-btn:hover {
+    background-color: #b73278;
+}
+
+.login-btn:focus,
+.register-btn:focus {
+    background-color: #cb3f89;
+    box-shadow: none;
+}
+
+.login-btn:active,
+.register-btn:active {
+    background-color: #cb3f89 !important;
+}
+
+.message-label {
+    margin-bottom: 1rem;
+}
+
+.user-popup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.user-popup-content > div > .close-btn{
+    margin-right: 1rem;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.detail-btns{
+    margin-right: 1rem;
+    margin-top: 1rem;
+
+}
